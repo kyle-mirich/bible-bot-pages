@@ -1,5 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Future of Bible Bot</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        #main-container {
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #2980b9;
+            border-bottom: 2px solid #2980b9;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #2c3e50;
+            font-weight: 500;
+            margin-top: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        ul {
+            margin: 10px 0;
+        }
+
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+
+        .section {
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .token-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 10px;
+        }
+
+        .token-item {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            background: #f2f2f2;
+            border-radius: 5px;
+        }
+
+        .token-item strong {
+            flex: 1;
+        }
+
+        .token-item span {
+            color: #2980b9;
+            font-weight: 700;
+        }
+
+        @media screen and (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+        }
+    </style>
+
 <body>
  <div id="main-container">
   <div id="future">
@@ -39,12 +128,16 @@
         Bible Bot operates on a token-based system. You can think of tokens as little virtual tickets; each interaction with the bot uses some of these tickets. The more complex your request, the more tickets are used. It's like paying for a bus ride: the longer the journey, the more tickets you need. This simple approach ensures that you know exactly what you're paying for. Here's how it breaks down:
         </p>
         <ul>
-        <li>
-            Input (sending a question to the bot): $0.03 per 1,000 tokens
-        </li>
-        <li>
-            Output (receiving an answer from the bot): $0.06 per 1,000 tokens
-        </li>
+            <h3><strong>The Token-Based System:</strong></h3>
+            <div class="token-list" >
+                <div class="token-item">
+                    <strong>Input:</strong> <span>$0.03 per 1,000 tokens</span>
+                </div>
+                <div class="token-item">
+                    <strong>Output:</strong> <span>$0.06 per 1,000 tokens</span>
+                </div>
+            </div>
+        <p></p>
         <li>
             Average Tokens per Question (both sending and receiving): 500
         </li>
@@ -59,7 +152,7 @@
         </li>
         </ul>
         <p>
-        This pricing model ensures accessibility and transparency, without compromising quality or depth.
+        This bonuses of the token pricing model is that it is very transparent. You can see to the dollar how much it costs to run for the entire day, month, year, etc.  
         </p>
         
     <h3>
